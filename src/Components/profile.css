@@ -1,0 +1,22 @@
+.profiles .profile {
+    display : flex;
+    flex-direction: row;
+    
+  }
+
+  .profile_data {
+    display: inline;
+
+    float: left;
+    position: relative;
+    width: 200px;
+    margin-left:-20px;
+  }
+
+.profile_name,
+.profile_mail,
+.profile_github {
+  align-items: center;
+
+  font-size: 15px;
+}
